@@ -67,6 +67,11 @@ ul {
   color: #fff;
 }
 
+.overlay-text {
+  bottom: 5rem;
+  left: 11rem;
+}
+
 .hero-img img {
   width: 100%;
   min-height: 250px;
@@ -170,4 +175,11 @@ ul {
 
 .mobile-modal.active {
   transform: translateY(0);
+}
+
+@media screen and (max-width: 768px) {
+  .overlay-text {
+    bottom: 2rem;
+    left: 2rem;
+  }
 }
